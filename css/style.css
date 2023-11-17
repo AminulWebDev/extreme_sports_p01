@@ -198,7 +198,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  
+
 }
 
 
@@ -278,7 +278,7 @@ h6 {
     margin: 5px 0 60px;
 }
 
-.adventures_content p {
+.adventures_content>p {
     position: relative;
 }
 
@@ -294,11 +294,47 @@ h6 {
 }
 
 
+.adventures_option {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.adventures_option .adventures_item {
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+}
+
+.adventures_option .adventures_item .item_icon {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.adventures_wrapper .common_btn {
+
+    border: 2px solid transparent;
+}
+
+.adventures_wrapper .common_btn:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
 
 #adventures .adventures_img {
     width: 650px;
     display: flex;
     column-gap: 50px;
+    align-items: center;
 }
 
 .adventures_img .adventuresImg_item {
@@ -318,18 +354,62 @@ h6 {
     height: 520px;
 }
 
-
 /* ================================
         Adventures Code End
 ==================================== */
 
 
 /* ================================
-        Common Code Start
+        Counter Code Start
 ==================================== */
+#counter {
+    margin-bottom: 227px;
+}
+
+#counter .container_wrapper {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+
+#counter .container_wrapper .counter_item {
+    width: 308px;
+    background: rgba(255, 244, 229, 0.5);
+    padding: 40px 48px 45px 48px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#counter .container_wrapper .counter_item:nth-child(2){
+    background-color: #f3fef4;
+}
+#counter .container_wrapper .counter_item:nth-child(3){
+    background-color: #f9f9fe;
+}
+#counter .container_wrapper .counter_item:nth-child(3){
+    background-color: #fef8fa;
+}
+
+.counter_item span {
+    color: var(--secondary);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.counter_item h6 {
+    margin-top: 8px;
+}
+
+
+
+
 /* ================================
-        Common Code End
+        Counter Code End
 ==================================== */
+
+
+
 /* ================================
         Common Code Start
 ==================================== */
