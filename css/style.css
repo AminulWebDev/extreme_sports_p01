@@ -861,6 +861,37 @@ h6 {
 
 
 /* ================================
+        Brands Code Start
+==================================== */
+#brands{
+    padding: 46px 0;
+}
+
+#brands .brands_wrapper{
+    display: flex;
+}
+
+#brands .brands_wrapper .brands_img{
+    width: 264px;
+    height: 264px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brands .brands_wrapper .brands_img img{
+    width: 141px;
+    height: 147px;
+    object-fit: cover;
+}
+
+/* ================================
+        Brands Code End
+==================================== */
+
+
+/* ================================
         Common Code Start
 ==================================== */
 /* ================================
