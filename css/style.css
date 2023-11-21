@@ -441,7 +441,6 @@ h6 {
 #activities .activities_wrapper {
     margin-top: 91px;
     position: relative;
-    padding-bottom: 50px;
 }
 
 .activities_wrapper::after {
@@ -499,11 +498,204 @@ h6 {
     color: var(--white);
 }
 
+.bottom_heading h2 {
+    padding: 83px 0 100px;
+    color: var(--white);
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    font-size: 160px;
+    font-weight: 400;
+    line-height: normal;
+}
+
 /* ================================
         Activities Code End
 ==================================== */
 
 
+
+
+
+/* ================================
+        Extreme Code Start
+==================================== */
+
+#extreme {
+    background: #FF9600;
+    padding: 110px 0 12px;
+    position: relative;
+}
+
+#extreme .extreme_shape {
+    position: absolute;
+    top: -42px;
+    left: 0;
+    width: 100%;
+}
+
+#extreme .extreme_shape img{
+    width: 100%;
+    display: block;
+}
+
+#extreme .extreme_heading {
+    text-align: center;
+}
+
+#extreme .extreme_heading h2 {
+    color: var(--white);
+    padding: 26px 46px;
+}
+
+#extreme .extreme_heading p {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#extreme .extreme_btn {
+    margin: 60px 0 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#extreme .extreme_btn .common_btn {
+    border: 2px solid transparent;
+    background: #0C3543;
+    transition: all linear .3s;
+
+}
+
+#extreme .extreme_btn .common_btn:hover {
+    color: var(--white);
+    background: transparent;
+    border: 2px solid var(--white);
+}
+
+#extreme .extreme_btn .view_btn {
+    background: transparent;
+    border: 2px solid var(--white);
+    transition: all linear .3s;
+}
+
+#extreme .extreme_btn .view_btn:hover {
+    background: #0C3543;
+    border: 2px solid #0C3543;
+}
+
+#extreme .extreme_btn .view_btn i {
+    margin-right: 10px;
+}
+
+#extreme .extreme_wrapper{
+    display: flex;
+    gap: 24px;
+}
+
+#extreme .extreme_wrapper .extreme_item {
+    width: 424px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+#extreme .extreme_wrapper .extreme_item::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0000002c, #000000d0);
+    border-radius: 10px;
+
+}
+
+.extreme_wrapper .extreme_item .item_img {
+    width: 100%;
+    overflow: hidden;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.extreme_wrapper .extreme_item .item_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.extreme_wrapper .extreme_item .item_content {
+    position: absolute;
+    top: 231px;
+    left: 15%;
+    z-index: 1;
+}
+
+.extreme_wrapper .extreme_item .item_content h3 {
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.extreme_wrapper .extreme_item .item_content h4 {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0 25px;
+    border-bottom: 1px solid #717171;
+    padding-bottom: 45px;
+}
+
+.extreme_wrapper .extreme_item .item_content p {
+    color: #A0A0A0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+}
+
+
+
+.extreme_wrapper .extreme_item .item_content i {
+    background: var(--white);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+    font-size: 10px;
+}
+
+/* ================================
+        Extreme Code End
+==================================== */
+
+
+
+
+
+/* ================================
+        Common Code Start
+==================================== */
+/* ================================
+        Common Code End
+==================================== */
+
+
+
+
+/* ================================
+        Common Code Start
+==================================== */
+/* ================================
+        Common Code End
+==================================== */
 
 
 
