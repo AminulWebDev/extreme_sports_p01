@@ -90,7 +90,6 @@ h6 {
         Common Code End
 ==================================== */
 
-
 /* ================================
         Navbar Code Start
 ==================================== */
@@ -122,8 +121,6 @@ h6 {
     gap: 50px;
     align-items: center;
 }
-
-
 
 .nav_wrapper .menu>ul li a {
     color: var(--white);
@@ -185,9 +182,6 @@ h6 {
         Navbar Code End
 ==================================== */
 
-
-
-
 /* ================================
         Banner Code Start
 ==================================== */
@@ -200,7 +194,6 @@ h6 {
     position: relative;
 
 }
-
 
 .banner_content {
     text-align: center;
@@ -233,7 +226,6 @@ h6 {
     background-color: var(--primary);
     color: var(--white);
 }
-
 
 .banner_shape {
     position: absolute;
@@ -293,7 +285,6 @@ h6 {
     ;
 }
 
-
 .adventures_option {
     margin: 40px 0;
     display: flex;
@@ -318,7 +309,6 @@ h6 {
     align-items: center;
 }
 
-
 .adventures_wrapper .common_btn {
 
     border: 2px solid transparent;
@@ -328,7 +318,6 @@ h6 {
     background-color: transparent;
     border: 2px solid #000;
 }
-
 
 #adventures .adventures_img {
     width: 650px;
@@ -403,7 +392,6 @@ h6 {
     margin-top: 8px;
 }
 
-
 /* ================================
         Counter Code End
 ==================================== */
@@ -453,14 +441,12 @@ h6 {
     height: 2px;
 }
 
-
 .activities_wrapper {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 50px;
 }
-
 
 .activities_item {
     width: 424px;
@@ -511,10 +497,6 @@ h6 {
 /* ================================
         Activities Code End
 ==================================== */
-
-
-
-
 
 /* ================================
         Extreme Code Start
@@ -600,7 +582,6 @@ h6 {
     position: relative;
 }
 
-
 #extreme .extreme_wrapper .extreme_item::after {
     position: absolute;
     content: "";
@@ -658,8 +639,6 @@ h6 {
     position: absolute;
 }
 
-
-
 .extreme_wrapper .extreme_item .item_content i {
     background: var(--white);
     width: 20px;
@@ -675,10 +654,6 @@ h6 {
 /* ================================
         Extreme Code End
 ==================================== */
-
-
-
-
 
 /* ================================
         Choose Code Start
@@ -761,9 +736,6 @@ h6 {
         Choose Code End
 ==================================== */
 
-
-
-
 /* ================================
         News Code Start
 ==================================== */
@@ -815,7 +787,6 @@ h6 {
     column-gap: 24px;
     row-gap: 50px;
 }
-
 
 .news_item {
     width: 424px;
@@ -871,8 +842,6 @@ h6 {
         News Code End
 ==================================== */
 
-
-
 /* ================================
         Brands Code Start
 ==================================== */
@@ -902,7 +871,6 @@ h6 {
 /* ================================
         Brands Code End
 ==================================== */
-
 
 /* ================================
         Common Code Start
@@ -940,7 +908,6 @@ h6 {
     display: flex;
     align-items: center;
 }
-
 
 .footer_content .footer_btn p {
     color: var(--white);
